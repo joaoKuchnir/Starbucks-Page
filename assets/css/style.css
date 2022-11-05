@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@700&display=swap');
+
+:root{
+    --font-open:   'Open Sans', sans-serif;
+    --font-oswald: 'Oswald', sans-serif;
+    --color-green:  #117050;
+    --color-gray:   #999999;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--font-open);
+}
+
+
+/* CABEÇALHO */
+.line-green{
+    background-color: var(--color-green);
+    height: 14px;
+}
+
+.container{
+    max-width: 1720px;
+    margin: auto;
+}
+
+.header--area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__left .logo__img{
+    width: 6rem;
+    height: 6rem;
+    margin-top: 25px;
+    margin-bottom: 18px;
+}
+
+.header__right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.header__search .form{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5rem;
+}
+
+.header__search .input{
+    border: 1px solid var(--color-gray);
+    border-right: none;
+    caret-color: var(--color-green);
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding: 0.9rem 1rem;
+    width: 100%;
+    max-width: 20rem;
+    letter-spacing: 2px;
+    outline: 0;
+}
+
+.header__search .button{
+    border: 1px solid var(--color-gray);
+    border-left: none;
+    cursor: pointer;
+    background-color: transparent;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.header__search .button .search__img{
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-top: 0.2rem;
+}
+
+.header__menu .menu__img{
+    width: 2.7rem;
+    height: 2.7rem;
+}
