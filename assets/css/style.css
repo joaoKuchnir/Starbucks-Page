@@ -20,16 +20,69 @@ body{
     font-family: var(--font-open);
 }
 
+/* GENERAL CONTENT */
+.container{
+    max-width: 1700px;
+    margin: auto;
+}
+
+.bar{
+    width: 16rem;
+    height: 2rem;
+    background-color: var(--color-greenM);
+    margin-bottom: 1rem;
+}
+
+.content__title{
+    font-family: var(--font-oswald);
+    font-size: 3.5rem;
+    font-weight: 400;
+    line-height: 4rem;
+    max-width: 90%;
+}
+
+.quote{
+    font-family: var(--font-open);
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 2.4rem 0;
+}
+
+.text{
+    font-family: var(--font-open);
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-bottom: 3rem;
+    max-width: 95%;
+    line-height: 2.4rem;
+}
+
+.content__btn{
+    margin: 4rem 0;
+}
+
+.button__content{
+    display: inline-block;
+    border: 3px solid var(--color-black);
+    border-radius: 5px;
+    color: var(--color-black);
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
+    padding: 1.2rem 2.5rem;
+    text-decoration: none;
+}
+
+.button__content:hover{
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
 
 /* CABEÇALHO */
 .line-green{
     background-color: var(--color-green);
     height: 14px;
-}
-
-.container{
-    max-width: 1700px;
-    margin: auto;
 }
 
 .header--area{
@@ -141,57 +194,6 @@ body{
     padding-left: 8rem;
     padding-right: 8rem;
     padding-bottom: 6rem;
-}
-
-.area1 .area1__content .bar{
-    width: 16rem;
-    height: 2rem;
-    background-color: var(--color-greenM);
-    margin-bottom: 1rem;
-}
-
-.area1 .area1__content .content__title{
-    font-family: var(--font-oswald);
-    font-size: 3.5rem;
-    font-weight: 400;
-    line-height: 4rem;
-    max-width: 90%;
-}
-
-.area1 .area1__content .queot{
-    font-family: var(--font-open);
-    font-style: italic;
-    font-size: 1.5rem;
-    font-weight: 400;
-    padding: 2.4rem 0;
-}
-
-.area1 .area1__content .text{
-    font-family: var(--font-open);
-    font-size: 1.5rem;
-    font-weight: 400;
-    padding-bottom: 3rem;
-    max-width: 95%;
-    line-height: 2.4rem;
-}
-
-.area1 .area1__content .content__btn{
-    margin: 4rem 0;
-}
-
-.area1 .area1__content .button__content{
-    border: 3px solid var(--color-black);
-    border-radius: 5px;
-    color: var(--color-black);
-    font-size: 1.3rem;
-    letter-spacing: 0.2rem;
-    padding: 1.2rem 2.5rem;
-    text-decoration: none;
-}
-
-.area1 .area1__content .button__content:hover{
-    background-color: var(--color-black);
-    color: var(--color-white);
 }
 
 .area1 .area1__cups{
