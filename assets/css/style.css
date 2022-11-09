@@ -232,7 +232,7 @@ body{
 }
 
 .bar--area2{
-    margin-top: 3.5rem;
+    margin-top: 5rem;
 }
 
 .area2 .area2__cups{
@@ -252,4 +252,30 @@ body{
 }
 
 
+/* AREA3 */
+.area3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area3 .area3__content{
+    background-image: url(../images/bg2.jpg);
+    background-size: cover;
+    background-position: left;
+    padding-top: 18rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-bottom: 20rem;
+}
+
+.area3 .area3__img{
+    background-image: url(../images/f5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.text__area3{
+    padding: 0;
+    margin-bottom: 4rem;
+}
 
