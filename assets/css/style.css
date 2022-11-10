@@ -92,6 +92,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 6.5rem;
 }
 
 .header__left .logo__img{
