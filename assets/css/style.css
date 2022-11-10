@@ -8,6 +8,7 @@
     --color-gray:   #999999;
     --color-black:  #454545;
     --color-white:  #fff;
+    --color-white2: #e8e9ee;
 }
 
 *{
@@ -279,3 +280,23 @@ body{
     margin-bottom: 4rem;
 }
 
+
+/* AREA4 */
+.area4{
+    display: grid;
+    grid-template-columns: 45rem 1fr;
+}
+
+.area4 .area4__content{
+    background-color: var(--color-white2);
+    padding-top: 10rem;
+    padding-left: 8rem;
+    padding-right: 6rem;
+    padding-bottom: 10rem;
+}
+
+.area4__img{
+    background-image: url(../images/bg3.jpg);
+    background-size: cover;
+    background-position: left;
+}
