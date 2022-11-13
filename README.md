@@ -6,5 +6,4 @@
 
 - Site do projeto: https://starbucks-page-joaokuchnir.vercel.app/
 
-- Créditos:
-- https://nicepage.com/st/17223/starbucks-coffee-website-template
+- Créditos: https://nicepage.com/st/17223/starbucks-coffee-website-template
